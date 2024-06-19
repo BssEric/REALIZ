@@ -1,0 +1,29 @@
+main {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 6em 45px 0 45px;
+    padding: 1% 5%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+
+main h1 {
+    color: #690606;
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 1em;
+}
+
+main h2 {
+    font-size: 24px;
+    margin-bottom: 0.5em;
+    font-weight: 600;
+}
+
+main p {
+    font-size: 16px;
+}
+
+footer {
+    margin-top: 3em;
+}

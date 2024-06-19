@@ -1,0 +1,88 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #ff8800;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+
+
+.container-cliente {
+    display: flex;
+    margin: 0;
+    padding: 0 2%;
+    align-items: center;
+    gap: 50px;
+    position: fixed;
+
+}
+
+.form-section {
+    top: 2em;
+    background: white;
+    padding: 10px 30px;
+    margin: 4em auto;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 9px 1px #8b8989;
+}
+.form-section input, .form-section textarea {
+    width: 100%;
+    padding: .4em;
+    margin: 0.5em 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.form-section button {
+    background-color: #ff8800;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.info-section {
+    text-align: center;
+    padding: 2em;
+    background: #f5f5f5;
+}
+.info-section h2 {
+    color: #ff8800;
+}
+.Avaliaçoes {
+    background: white;
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Frase {
+    background-color: #ff8800;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+.Frase button {
+    background-color: white;
+    color: #ff8800;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-bottom {
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

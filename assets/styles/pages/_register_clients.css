@@ -1,0 +1,128 @@
+body {
+    background-image: url('../../images/banners/orange\ and\ back.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#main-login,
+.box {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    flex-direction: row;
+}
+
+.box {
+    display: flex;
+}
+
+#main-login h1 {
+    color: #fff;
+    text-shadow: 0 0 5px #ff6f00;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.caixa {
+    margin-top: 5em;
+}
+
+.caixa img {
+    width: 150px;
+}
+
+.social-icons p,
+.submit p {
+    margin: 10px;
+    color: #f5e2e2;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.submit a {
+    text-decoration: none;
+    color: #d5b0fff4;
+    font-weight: 500;
+}
+
+.social-icons .fa-google {
+    color: #fff;
+}
+
+.email input,
+.password input,
+.name-user input {
+    border-radius: 15px;
+    border: none;
+    width: 300px;
+    height: 40px;
+    padding-left:15px;
+    background-color: #333;
+    color: #fff;
+}
+
+.rpass input,
+.email input {
+    margin-top: 10px;
+}
+
+.name-user input,
+.email input {
+    margin-right: 10px;
+}
+
+.submit input
+/* .submit button  */
+{
+    cursor: pointer;
+    width: 180px;
+    height: 40px;
+    border-radius: 9px;
+    border: none;
+    background-color: #ff6f00;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+#main-login input::placeholder {
+    color: #d5b094;
+}
+
+.social-icons .fa-google:hover {
+    color: #c74545;
+    background-color: #fff;
+}
+
+.submit input:hover {
+    background-color: #e6863c;
+}
+
+#main-login a:hover {
+    color: #3a3333;
+}
+
+@media (max-width: 660px) {
+
+    .box {
+        display: block;
+    }
+
+    .password input,
+    .email input {
+    margin-top: 10px;
+    }
+
+    .name-user input,
+    .email input {
+        margin-left: 10px;
+    }
+
+    .caixa {
+        margin-top: 3em;
+    }
+}

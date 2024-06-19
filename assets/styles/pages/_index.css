@@ -1,0 +1,278 @@
+ /* Home Section */
+ .secao-home {
+     background-image: url('../../images/banners/mudança03.jpg');
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     position: relative;
+     min-height: 100vh;
+     top: 53px;
+     text-align: center;
+     padding: 2em 0;
+ }
+
+ .txt1,
+ .txt2 {
+     font-size: 5.5em;
+     margin: 0.5em 0;
+     color: #fff;
+     text-shadow: 5px 5px 15px #ff6f00;
+     font-weight: 600;
+     position: absolute;
+ }
+
+ .secao-home .txt1 {
+     top: 20%;
+     left: 5%;
+ }
+
+ .secao-home .txt2 {
+     top: 40%;
+     left: 15%;
+ }
+
+ .btn-provider {
+     padding: 0.75em 1.5em;
+     font-size: 24px;
+     background-color: #007bff;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     text-decoration: none;
+     position: absolute;
+     top: 10%;
+     right: 5%;
+ }
+
+ .btn-provider:hover {
+     background-color: #0056b3;
+ }
+
+ /* Sobre nós Section */
+ .sobre {
+     background-image: url('../../images/banners/orange2.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     width: 100%;
+     margin: 0 auto;
+     text-align: center;
+     padding: 6em;
+ }
+
+ .sobre h1 {
+     font-size: 3.5em;
+     margin-bottom: 0.5em;
+     color: #fff;
+     font-weight: 600;
+     text-shadow: 0 0 5px #ff6f00;
+ }
+
+ .sobre h2 {
+     font-size: 1.5em;
+     margin-bottom: 2em;
+     color: #fff;
+     line-height: 1.5em;
+ }
+
+ .container-cards {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+ }
+
+ .cards-section1,
+ .cards-section2 {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+ .cards {
+     flex: 1 1 calc(33.333% - 1em);
+     margin: 0.5em;
+     padding: 0.5em;
+     background-color: #f0f0f0;
+     border-radius: 10px;
+     text-align: left;
+ }
+
+ .cards img {
+     width: 50%;
+     height: auto;
+     box-shadow: 0 0 10px 5px #ff6f002f;
+     border-radius: 10px 10px 0 0;
+     margin: 10px 25%;
+ }
+
+ .cards h3 {
+     margin: 1em 0;
+     text-align: center;
+ }
+
+ .cards p {
+     font-size: 1em;
+ }
+
+ /* Como Funciona Section */
+ #como-funciona {
+     margin: 1em;
+     background-color: #f7e7cb5d;
+     border-radius: 6px;
+ }
+
+ .step {
+     margin-bottom: 1em;
+ }
+
+ #como-funciona h2 {
+     font-size: 3.5em;
+     margin-bottom: 0.5em;
+     color: #ff6f00;
+     font-weight: 600;
+     text-align: center;
+     position: relative;
+ }
+
+ .step {
+     align-items: flex-start;
+     margin: 50px;
+ }
+
+ .step h3 {
+     font-size: 1.5em;
+     margin-bottom: 0.5em;
+     text-align: center;
+     font-weight: 600;
+ }
+
+ .step p {
+     font-size: 1em;
+ }
+
+ hr {
+     border: none;
+     height: 2px;
+     background-color: #ffa600;
+     margin: 1.5em 0;
+ }
+
+ /* Responsividede */
+
+ /* Ajuste para quando a largura máxima for 1200px */
+ @media (max-width: 1200px) {
+     .cards {
+         width: 45%;
+         margin-bottom: 20px;
+     }
+ }
+
+ /* Ajuste para quando a largura máxima for 780px */
+ @media (max-width: 780px) {
+
+     .txt1,
+     .txt2 {
+         font-size: 3.5em;
+         margin: 0.5em 0;
+         text-shadow: 0 0 10px #fff;
+         font-weight: 600;
+     }
+
+     .btn-provider {
+         /* align-items: center;
+         text-align: center;
+         justify-content: space-between; */
+         font-size: 1em;
+         padding: 2px auto;
+         top: 60%;
+     }
+
+     .secao-home {
+         /* background-image: url('../../images/home/mudança03.jpg'); */
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 100vh;
+         top: 53px;
+         text-align: center;
+         padding: 2em 0;
+     }
+
+     .secao-home .txt1 {
+         left: 5%;
+         top: 2%;
+     }
+
+     .secao-home .txt2 {
+         left: 15%;
+         top: 20%;
+     }
+
+     .btn-provider {
+         align-items: center;
+         text-align: center;
+         justify-content: space-between;
+         font-size: 1em;
+         margin: 20px auto;
+     }
+
+     .btn-provider:hover {
+         background-color: #0056b3;
+     }
+
+     .sobre h1,
+     #como-funciona h2 {
+         font-size: 2.5em;
+         margin-bottom: 0.5em;
+         font-weight: 600;
+         text-align: center;
+     }
+
+     .container-cards {
+         flex-direction: column;
+     }
+
+     .cards {
+         flex: 1 1 100%;
+         margin: 0.5em 0;
+     }
+ }
+
+ /* Ajuste para quando a largura máxima for 740px */
+ @media (max-width: 740px) {
+     .cards {
+         width: 100%;
+         margin-bottom: 20px;
+     }
+ }
+
+
+ @media (max-width: 490px) {
+
+     .txt1,
+     .txt2 {
+         font-size: 2.4em;
+         margin: 0.5em 0;
+         text-shadow: 0 0 10px #fff;
+         font-weight: 600;
+         position: absolute;
+     }
+ }
+
+ /* Ajuste para quando a largura máxima for 430px */
+ @media (max-width: 430px) {
+
+     .sobre h1,
+     #como-funciona h2 {
+         font-size: 1.5em;
+         margin-bottom: 0.5em;
+         font-weight: 600;
+         text-align: center;
+     }
+
+     .step h3 {
+         font-size: 1em;
+         margin-bottom: 0.5em;
+         font-weight: 600;
+     }
+ }

@@ -1,0 +1,152 @@
+ .back-home {
+     background-color: #534e4e;
+     text-align: center;
+     padding: 5px 0;
+ }
+
+ .back-home a {
+     text-decoration: none;
+     font-size: 13px;
+     padding: 9px 250px;
+     font-weight: 600;
+     color: #d5b094;
+ }
+
+ .footer-links {
+     display: flex;
+     background-color: #333;
+     justify-content: space-between;
+ }
+
+ .footer-links ul {
+     list-style: none;
+ }
+
+ .footer-column {
+     padding: 10px;
+     margin: 0 10px;
+ }
+
+ .footer-column h4 {
+     color: #fff;
+     font-weight: 600;
+     margin-left: 12%;
+ }
+
+ .footer-column a,
+ .footer-column p {
+     color: #d5b094;
+ }
+
+ .footer-realiz {
+     width: 40%;
+ }
+
+ .footer-sobre {
+     width: 35%;
+ }
+
+ .footer-social {
+     width: 35%;
+ }
+
+ .footer-social ul {
+     padding-top: 3%;
+     display: flex;
+     justify-content: space-between;
+     width: 90%;
+ }
+
+ .footer-social ul a {
+     background-color: #ff6f00;
+     font-size: 35px;
+     padding: 5px 10px;
+     margin-left: 15px;
+     border-radius: 6px;
+ }
+
+ .footer-bottom {
+     display: flex;
+     justify-content: space-between;
+     background-color: #000;
+     padding: 20px 15px 0 15px;
+ }
+
+ .footer-bottom p {
+     font-weight: 600;
+     color: #f8f9fa;
+ }
+
+ .termos a {
+     padding-left: 20px;
+     font-size: 13px;
+     color: #d5b094;
+ }
+
+ .back-home a:hover,
+ .termos a:hover,
+ .footer-sobre ul a:hover {
+     color: #ff6f00;
+ }
+
+ .footer-social ul a:hover {
+     background-color: #dfd5ce;
+ }
+
+ .footer-social .facebook:hover {
+     color: #246fba;
+ }
+
+ .footer-social .linkedin:hover {
+     color: #0A66C2;
+ }
+
+ .footer-social .instagram:hover {
+     color: #cc5d82;
+ }
+
+ .footer-social .whatsapp:hover {
+     color: #25D366;
+ }
+
+ /* Ajuste para quando a largura máxima for 895px */
+ @media (max-width: 895px) {
+     .footer-links {
+         display: block;
+         width: 100%;
+     }
+
+     .footer-column {
+         text-align: center;
+         width: 90%;
+     }
+
+     .footer-column h4 {
+         margin-left: 6%;
+     }
+
+     .footer-social ul {
+         width: 15em;
+         margin: 10px auto;
+     }
+
+     .footer-social ul a {
+         background-color: #ff6f00;
+         margin-left: 0.0583em;
+     }
+ }
+
+ @media (max-width: 690px) {
+    .footer-bottom {
+        display: block;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+ }
+
+ /* Ajuste para quando a largura máxima for 600px */
+ @media (max-width: 600px) {
+     .back-home a {
+         padding: 9px 100px;
+     }
+ }

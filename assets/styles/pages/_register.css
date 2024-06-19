@@ -1,0 +1,121 @@
+body {
+    background-image: url('../../images/banners/abstract-black-and-orange-layer-geometric-background-vector.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.btnRegistrar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 auto 0;
+    width: 100%;
+    min-height: 100vh;
+    position: fixed;
+}
+
+.btnRegistrar .registro-cliente,
+.btnRegistrar .registro-prestador {
+    position: absolute;
+    padding: 1px 50px;
+    box-shadow: 0 0 15px 0 #333;
+    border-radius: 10px;
+    background-color: #d5b094;
+    top: 15em;
+    
+    a {
+        text-shadow: 0 0 6px #ff6f00;
+        text-decoration: none;
+        font-size: 40px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    &:hover {
+        background-color: rgb(235, 243, 243);
+        box-shadow: none;
+
+        a {
+            text-decoration: underline;
+            text-shadow: none;
+            color: #ff6f00;
+        }
+    }
+}
+
+.btnRegistrar .registro-prestador {
+    left: 25%;
+}
+
+.btnRegistrar .registro-cliente {
+    right: 25%;
+} 
+
+/* @responsive - Largura Max 1815px */
+@media (max-width: 1815px) {
+    .btnRegistrar .registro-prestador {
+        left: 20%;
+    }
+    
+    .btnRegistrar .registro-cliente {
+        right: 20%;
+    }
+}
+
+/* @responsive - Largura Max 1515px */
+@media (max-width: 1515px) {
+    .btnRegistrar .registro-prestador {
+        left: 10%;
+    }
+    
+    .btnRegistrar .registro-cliente {
+        right: 10%;
+    }
+}
+
+/* @responsive - Largura Max 1135px */
+@media (max-width: 1135px) {
+
+    .btnRegistrar .registro-prestador,
+    .btnRegistrar .registro-cliente {
+        text-align: center;
+        width: 20em;
+
+        a {
+            font-size: 32px;
+        }
+    }
+}
+
+/* @responsive - Largura Max 810px */
+@media (max-width: 810px) {
+
+    .btnRegistrar .registro-prestador,
+    .btnRegistrar .registro-cliente {
+        text-align: center;
+        width: 70%;
+        left: 15%;
+
+        a {
+            font-size: 32px;
+        }
+    }
+
+    .btnRegistrar .registro-prestador {
+        top: 30%;
+    }
+    
+    .btnRegistrar .registro-cliente {
+        top: 50%;
+    }
+}
+
+/* @responsive - Largura Max 500px */
+@media (max-width: 500px) {
+    .btnRegistrar .registro-prestador a,
+    .btnRegistrar .registro-cliente a {
+        font-size: 20px;
+    }
+}

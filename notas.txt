@@ -1,0 +1,51 @@
+Sites 
+
+
+logos icons
+
+https://fontawesome.com/search
+
+https://cdnjs.com/libraries/font-awesome/6.4.2
+
+https://br.freepik.com/
+
+
+Checagem link das paginas e pendências
+
+-- Index
+    > falta politica de privacidade 
+
+-- Clients
+
+-- Login
+    > link - OK
+
+-- politica privacidade
+
+-- providers
+
+-- quem somos
+
+-- register clients
+    > link - OK
+-- register providers
+
+-- termo de uso >> FINISH
+    > links - OK
+    > css pendente - ok 
+    FINISH
+
+
+
+TELA DE REGISTRO DO PRESTADOR 
+
+> MATER 
+    NOME
+    EMAIL
+    SENHA
+    REPETIR SENHA
+
+> ICNLUIR
+    TIPO VEICULO
+    PLACA
+    CNH
